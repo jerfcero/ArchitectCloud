@@ -1,0 +1,22 @@
+How do I enable all cores on my CPU?
+1. Use a different monitoring tool
+task manager cpu
+Sometimes this issue can be a simple display bug from Task Manager. Simply restart the PC and check again.
+If the number of cores and threads are still inconsistent, you should try using a different monitoring tool for your CPU.
+
+Press Windows + R
+This will open the Run menu
+Type in MSConfig
+Go to the Boot tab
+boot advanced settings
+Select Advanced Options
+Look at where it says Number of processors
+If the checkbox is enabled, uncheck it
+Your system should now use all of its processors whenever given the chance
+set number of cores
+Reboot the PC
+Open the Task Manager or any other monitoring program to view the number co cores. You should see the right number now.
+
+Note: By design, this system setting can only be used to reduce the number of cores your CPU uses, since the system’s goal is always to make the most of your processors.
+
+That being said, if you do find this system setting modified to less than the default value, it may be the result of another software’s tampering.
