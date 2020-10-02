@@ -1,0 +1,50 @@
+Additional Notes on Recommended Form Solutions for Office 365
+ 
+
+Office 365 Excel Surveys
+Very limited but allows for external respondents
+Survey can be shared via a link
+Data gets collected in an excel spreadsheet
+Seems unnecessary now that Forms has been released
+Good Fit: Basic staff surveys with some external respondents.
+
+Office 365 Forms
+Still in Preview
+Mostly geared towards basic scenarios at this point
+Forms are natively mobile friendly
+Controls can be customized to a degree (e.g. validation rules)
+Real time results dashboard and data can be exported to an excel spreadsheet
+Good Fit: Any straightforward forms such as a staff surveys.
+
+SharePoint Forms
+Basic forms, using a content type for each form
+Data is stored in a SharePoint list by default but can use an external content types to store data in external locations like SQL
+Good Fit: Filling out metadata for list or library items, or maintaining a Tasks list.
+
+PowerApps
+Seems to support moderate complexity
+Generates an attractive UI easily
+Can connect to SQL
+Currently not a fully fleshed out solution yet but on its way
+Good Fit: Mobile-friendly stand-alone app for employees to submit requests such as an Expense Claims.
+
+Third Party Solutions (e.g. Nintex Forms)
+Expensive
+Fairly easy to use once you understand the basics
+Possible to generate a nice UI if you know what you’re doing.
+Supports more advanced controls (e.g. repeating sections)
+Can add custom CSS or JS easily
+Can connect to SQL
+Good Fit: Form-heavy SharePoint solutions which can leverage associated workflows to automate business processes.
+
+Custom .NET Forms
+Free rein but requires a high-level of technical expertise
+Allows for high complexity
+Maintenance risk going forward
+Good Fit: If the above solutions don’t meet your requirements or if you have a talented .NET developer on hand.
+
+Access App
+Deprecated, existing apps will be shut down by April 2018
+InfoPath
+Deprecated, InfoPath 2013 supported in Office 365 “until further notice” and in On-Premise to 2026
+Not recommended for new development (barring certain scenarios)
