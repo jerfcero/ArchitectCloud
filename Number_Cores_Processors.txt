@@ -1,0 +1,4 @@
+#in windows menu open RUN "wmic" 
+#run command;
+
+CPU Get NumberOfCores,NumberOfLogicalProcessors /Format:List
